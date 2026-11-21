@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
 	<previewjs></previewjs>
-	<widgetname>FilmCehennemi</widgetname>
+	<widgetname>HDFilm</widgetname>
 	<type>user</type>
 	<fullwidget>y</fullwidget>
 	<ticker>n</ticker>

@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rsp>
 	<widget>
-		<id>FilmCehennemi</id>
-		<name>FilmCehennemi</name>
+		<id>HDFilm</id>
+		<name>HDFilm</name>
 		<categories>
 			<category>Entertainment</category>
 		</categories>
 		<contents>
 			<content>
 				<size>512000</size>
-				<url>FilmCehennemi_v2.zip</url>
+				<url>HDFilm_v3.zip</url>
 			</content>
 		</contents>
 	</widget>
