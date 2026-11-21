@@ -1,0 +1,32 @@
+/* Netflix-varsi stil — Orsay 960x540 / 1280x720 */
+html,body{margin:0;padding:0;background:#0c0c10;color:#eee;font-family:'SegoeUI',Arial,sans-serif;}
+.hidden{display:none!important;}
+
+#loading{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+	background:rgba(229,9,20,.9);padding:12px 28px;border-radius:24px;z-index:99;font-size:18px;}
+
+.scene{position:absolute;inset:0;overflow:hidden;}
+header{padding:18px 32px 4px;}
+header h1{font-size:30px;margin:0;color:#e50914;letter-spacing:-1px;display:inline;}
+header h1 span{color:#fff;}
+#homeHint{color:#888;font-size:13px;margin-top:2px;}
+
+.row{margin:6px 32px;}
+.row h2{font-size:17px;color:#ddd;margin:8px 0 4px;}
+.strip{white-space:nowrap;overflow:hidden;height:196px;}
+.card{display:inline-block;width:132px;height:186px;margin-right:12px;
+	border-radius:6px;background-color:#23232b;background-size:cover;background-position:center;
+	position:relative;vertical-align:top;opacity:.85;}
+.card.focus{outline:4px solid #e50914;opacity:1;transform:scale(1.06);}
+.card .label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,#000d);
+	font-size:11px;padding:6px 4px 3px;border-radius:0 0 6px 6px;white-space:normal;}
+
+#detailScene{background:#111;overflow:auto;}
+#btnBack{margin:12px 20px;padding:6px 14px;background:#333;color:#fff;border:0;border-radius:4px;font-size:14px;}
+#detailBody{display:flex;padding:10px 30px;}
+#detailBody .poster{flex:0 0 220px;height:320px;border-radius:8px;background:#222 center/cover no-repeat;}
+#detailBody .info{margin-left:24px;max-width:800px;}
+#detailBody h3{font-size:26px;margin:4px 0 10px;color:#e50914;}
+#detailBody .desc{font-size:15px;line-height:1.5;color:#ccc;}
+.btn{display:inline-block;margin-top:18px;background:#e50914;color:#fff;padding:12px 34px;border-radius:5px;font-size:19px;cursor:pointer;}
+.btn:focus{outline:3px solid #fff;}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FilmCehennemi</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Samsung SEF player arayuzu (Orsay 2012+) -->
+	<object id="sefPlayer" style="position:absolute;left:0;top:0;width:0;height:0;"></object>
+
+	<div id="loading" class="hidden">Yukleniyor...</div>
+
+	<!-- Ana ekran: Netflix tarzi yatay satirlar -->
+	<div id="homeScene" class="scene">
+		<header><h1>Film<span>Cehennemi</span></h1><div id="homeHint">Red tusu: Cikis | Ok tuslari gezin | OK ac</div></header>
+		<div id="homeRows"></div>
+	</div>
+
+	<!-- Detay ekranı -->
+	<div id="detailScene" class="scene hidden">
+		<button id="btnBack">&lt; Geri</button>
+		<div id="detailBody"></div>
+	</div>
+
+	<script src="js/base64.js"></script>
+	<script src="js/api.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

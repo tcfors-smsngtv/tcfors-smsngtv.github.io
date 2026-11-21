@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+	<previewjs></previewjs>
+	<widgetname>FilmCehennemi</widgetname>
+	<type>user</type>
+	<fullwidget>y</fullwidget>
+	<ticker>n</ticker>
+	<childlock>n</childlock>
+	<audiomute>n</audiomute>
+	<movie>y</movie>
+	<widgetcategory>entertainment</widgetcategory>
+	<description>HDFilmCehennemi tarayici - Orsay (2014 H serisi)</description>
+</widget>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rsp>
+	<widget>
+		<id>FilmCehennemi</id>
+		<name>FilmCehennemi</name>
+		<categories>
+			<category>Entertainment</category>
+		</categories>
+		<contents>
+			<content>
+				<size>512000</size>
+				<url>FilmCehennemi_v1.zip</url>
+			</content>
+		</contents>
+	</widget>
+</rsp>
