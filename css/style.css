@@ -30,3 +30,21 @@ header h1 span{color:#fff;}
 #detailBody .desc{font-size:15px;line-height:1.5;color:#ccc;}
 .btn{display:inline-block;margin-top:18px;background:#e50914;color:#fff;padding:12px 34px;border-radius:5px;font-size:19px;cursor:pointer;}
 .btn:focus{outline:3px solid #fff;}
+.backbtn{position:absolute;top:16px;right:20px;background:#333;color:#fff;border:0;border-radius:4px;padding:6px 14px;font-size:14px;z-index:5;}
+
+/* --- Baslatici karolari --- */
+#tiles{margin:40px 60px;}
+.tile{display:inline-block;width:420px;height:280px;margin-right:28px;border-radius:14px;
+	background:#16161d;border:3px solid #2a2a35;color:#eee;vertical-align:top;position:relative;}
+.tile.focus{border-color:#e50914;background:#1d1420;transform:scale(1.05);}
+.tile .ico{font-size:96px;display:block;text-align:center;margin-top:48px;}
+.tile .t{display:block;text-align:center;font-size:24px;margin-top:16px;}
+.tile small{color:#999;font-size:15px;}
+
+/* --- IPTV liste --- */
+#channelList{margin:16px 60px;max-height:440px;overflow-y:auto;}
+.chan{padding:10px 16px;border-bottom:1px solid #22222c;font-size:22px;position:relative;}
+.chan.focus{background:#e50914;color:#fff;border-radius:6px;}
+.chan .num{display:inline-block;width:46px;color:#888;}
+.chan.focus .num{color:#ffd;}
+.chan .logo{position:absolute;right:14px;top:8px;height:28px;opacity:.85;}
